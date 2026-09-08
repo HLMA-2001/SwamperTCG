@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    background-image: url(../imagenes/An-extensive-collection-of-best-Pokemon-wallpapers-in-HD-for-desktop-use.jpg) ;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+#footer {
+    width: 100%;
+    height: auto;
+
+}
+
+.calugas {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proximamente-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: clamp(32px, 13vw, 110px);
+    font-weight: 900;
+    line-height: 1.1;
+    text-align: center;
+    padding: 0 16px;
+
+    color: #38bdf8;
+}
+
+.proximamente-text span{
+    display: inline-block;
+    text-shadow: 
+    0 0 10px rgba(56, 189, 248, 0.5),
+    0 0 25px rgba(56, 189, 248, 0.25);
+
+    animation: proximamente 1.4s ease-in-out infinite;
+}
+
+.proameximnte-text span:nth-child(1){
+    animation-delay: 0s;
+}
+.proximamente-text span:nth-child(2){
+    animation-delay: 0.12s;
+}
+.proximamente-text span:nth-child(3){
+    animation-delay: 0.24s;
+}
+.proximamente-text span:nth-child(4){
+    animation-delay: 0.36s;
+}
+.proximamente-text span:nth-child(5){
+    animation-delay: 0.48s;
+}
+.proximamente-text span:nth-child(6){
+    animation-delay: 0.60s;
+}
+.proximamente-text span:nth-child(7){
+    animation-delay: 0.72s;
+}
+.proximamente-text span:nth-child(8){
+    animation-delay: 0.84s;
+}
+.proximamente-text span:nth-child(9){
+    animation-delay: 0.96s;
+}
+.proximamente-text span:nth-child(10){
+    animation-delay: 0.108s;
+}
+.proximamente-text span:nth-child(11){
+    animation-delay: 0.120s;
+}
+.proximamente-text span:nth-child(12){
+    animation-delay: 0.132s;
+}
+.proximamente-text span:nth-child(13) {
+     animation-delay: 1.44s; }
+.proximamente-text span:nth-child(14) {
+     animation-delay: 1.56s; }
+.proximamente-text span:nth-child(15) {
+     animation-delay: 1.68s; }
+
+
+@keyframes proximamente {
+    0%,
+    100%{
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+}
